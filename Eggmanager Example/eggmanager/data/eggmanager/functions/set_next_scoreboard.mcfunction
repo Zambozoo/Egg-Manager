@@ -1,4 +1,7 @@
+#Set ignore_relaod to true
 #Set first unused egg_score to 2
+
+scoreboard players set ignore_reload eggmanager 1
 
 execute if score em_foundscore eggmanager matches 0 if score em_bat eggmanager matches 0 run function eggmanager:set_scoreboard/em_bat
 execute if score em_foundscore eggmanager matches 0 if score em_blaze eggmanager matches 0 run function eggmanager:set_scoreboard/em_blaze

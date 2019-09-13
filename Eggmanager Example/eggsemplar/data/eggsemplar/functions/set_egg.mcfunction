@@ -4,7 +4,6 @@
 #Enable next available egg datapack
 #Set next available egg to 1 (eggmanager:update_scoreboard)
 
-scoreboard players set ignore_reload eggmanager 1
 function eggsemplar:disable_datapacks
 function eggmanager:set_next_scoreboard
 
