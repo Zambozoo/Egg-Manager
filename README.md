@@ -11,4 +11,4 @@ Each datapack that relies on Egg Manager requires the following:
 
 I use multiple (58, one for each spawn egg) hardcoded datapacks for different crafting recipes, but those aren't necessary for all spawn egg uses.
 
-Every folder in the "Eggmanager Example" folder is a datapack, and should be used together.
+Every folder in the "Eggmanager Example" folder is a datapack, and can be used together to get an understanding of how it works.
