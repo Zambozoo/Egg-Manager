@@ -9,6 +9,6 @@ Each datapack that relies on Egg Manager requires the following:
 * (Optional, but useful) An implementation of disable_datapacks.mcfunction similar to eggsample and eggsemplar
 * (Optional, but useful) An implementation of enable_datapack.mcfunction similar to eggsample and eggsemplar
 
-I use multiple (58, one for each spawn egg) hardcoded datapacks for different crafting recipes, but those aren't necessary for all spawn egg uses.
+I use multiple (58, one for each spawn egg) hardcoded datapacks for different crafting recipes, but those aren't necessary for all spawn egg uses. Any specific functions, looting tables, or recipes would go in these datapacks. The provided "ex_" folders refer to eggsemplar, "es_" folders to eggsample.
 
 Every folder in the "Eggmanager Example" folder is a datapack, and can be used together to get an understanding of how it works.
