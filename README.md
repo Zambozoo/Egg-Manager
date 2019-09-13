@@ -2,7 +2,11 @@
  Assigns datapacks that use spawn eggs different eggs on reload.
 
 Each datapack that relies on Egg Manager requires the following:
-* A datapack for each spawn egg that includes all spawn egg dependent recipes, drops, functions, etc. (Child datapack)
-* In the base datapack, a function that disables each child datapack.
-* A function that calls disable_datapack, eggmanager:set_scoreboard, enables the proper child datapack, and eggmanager:update_scoreboard
-* A function that is included in load.json, that schedules set_egg in 1 tick provided ignore_reload is 0
+* The egg_manager_open datapack
+* The egg_manager_close datapack
+* An implementation of load.mcfunction similar to the 4 eggsamples
+* An implementation of first_run.mcfunction similar to the 4 eggsamples
+* (Optional, but useful) An implementation of disable_datapacks.mcfunction similar to eggsample and eggsemplar
+* (Optional, but useful) An implementation of enable_datapack.mcfunction similar to eggsample and eggsemplar
+
+I use multiple (58, one for each spawn egg) hardcoded datapacks for different crafting recipes, but those aren't necessary for all spawn egg uses.
