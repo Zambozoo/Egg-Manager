@@ -1,0 +1,1 @@
+execute unless score egg_pun_here has_run matches 1 run function egg_pun_here:first_run
